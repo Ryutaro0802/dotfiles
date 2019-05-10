@@ -92,8 +92,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# anyenv settings
+# -----
+# env settings
+# -----
+
+# anyenv
 
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
+# -----
+# aliases
+# -----
+
+alias nano='nano -k -w -i -S -u'
